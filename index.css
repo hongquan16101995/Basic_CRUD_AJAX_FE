@@ -1,0 +1,24 @@
+#table {
+    width: 500px;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#display, #form-create {
+    margin-bottom: 30px;
+}
+
+table {
+    margin: auto;
+}
+
+h1 {
+    padding-left: 650px;
+}
+
+#table tr, #table th, #table td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>List animal</h1>
+<div id="display"></div>
+<div>
+    <form id="form-create">
+        <table>
+            <tr>
+                <th><label for="name">Name</label></th>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <th><label for="age">Age</label></th>
+                <td><input type="text" id="age"></td>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender</label></th>
+                <td><input type="text" id="gender"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><button onclick="create()">Create</button></th>
+            </tr>
+        </table>
+    </form>
+</div>
+<div>
+    <form id="form-update">
+        <table>
+            <tr>
+                <th><label for="nameU">Name</label></th>
+                <td><input type="text" id="nameU"></td>
+            </tr>
+            <tr>
+                <th><label for="ageU">Age</label></th>
+                <td><input type="text" id="ageU"></td>
+            </tr>
+            <tr>
+                <th><label for="genderU">Gender</label></th>
+                <td><input type="text" id="genderU"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <th><button onclick="update()">Update</button>
+                <button type="reset">Reset</button></th>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
